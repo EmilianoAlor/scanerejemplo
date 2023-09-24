@@ -26,6 +26,11 @@ public class Persona {
 	}
 
 
+	public void setIndice(float indice) {
+		this.indice = indice;
+	}
+
+
 	public String DevolverIndice()
 	{
 			indice = peso / (altura*altura);
